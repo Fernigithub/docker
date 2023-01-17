@@ -32,6 +32,12 @@ Or if you want to start the container daemonized, use e.g.:
 ```shell
 docker run -d -p 80:8080 docker.osgeo.org/geoserver:2.21.1
 ```
+Postgis conection
+HOST 
+```shell
+host.docker.internal 
+```
+
 
 Check <http://localhost/geoserver> to see the geoserver page,
 and login with geoserver default `admin:geoserver` credentials.
